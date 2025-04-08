@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-dancing-script: "Dancing Script", cursive;
+}
+
+@layer base {
+  .font-inter {
+    font-family: var(--font-inter);
+  }
+  .font-dancing-script {
+    font-family: var(--font-dancing-script);
+  }
+}
